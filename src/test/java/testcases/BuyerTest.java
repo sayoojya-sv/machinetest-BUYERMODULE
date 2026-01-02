@@ -6,17 +6,23 @@ import org.testng.annotations.Test;
 
 import base.TestBase;
 import pages.BuyerLoginPage;
+import pages.CartPage;
 import pages.HomePage;
+import pages.LogoutPage;
 
 public class BuyerTest extends TestBase{
 	
 	BuyerLoginPage obj;
 	HomePage hobj;
+	LogoutPage lobj;
+	CartPage cobj;
 	
 	@BeforeClass
 	public void objInit() {
 		obj=new BuyerLoginPage(driver);
 		hobj=new HomePage(driver);
+		lobj=new LogoutPage(driver);
+		cobj=new CartPage(driver);
 	}
 	
 	@Test(priority=1)
@@ -25,6 +31,7 @@ public class BuyerTest extends TestBase{
 		obj.loginEmail("mahi@gmail.com");
 		obj.loginPass("mahi12");
 		obj.signIn();
+		Assert.assertTrue(obj.iserrorMsgDisplayed());
 		
 	}
 	
@@ -54,6 +61,15 @@ public class BuyerTest extends TestBase{
 		Assert.assertTrue(hobj.isProductPriceDisplayed());
 	}
 	
+	@Test(priority=6)
+	public void addCartTest() {
+		cobj.addCart();
+	}
 	
+	@Test(priority=7)
+	public void logoutTest() {
+		lobj.logOut();
+		
+	}
 
 }

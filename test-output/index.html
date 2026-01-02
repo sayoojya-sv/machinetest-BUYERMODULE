@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\LAB-USER-01\AppData\Local\Temp\testng-eclipse--453935832\testng-customsuite.xml</span>
+                    <span>C:\Users\LAB-USER-01\AppData\Local\Temp\testng-eclipse--1217327509\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +119,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testcases.BuyerTest" class="method navigator-link" hash-for-method="Val_nameandprodTest">Val_nameandprodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.BuyerTest" class="method navigator-link" hash-for-method="addCartTest">addCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.BuyerTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -174,6 +184,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="addCartTest">
+                  </a> <!-- addCartTest -->
+                  <span class="method-name">addCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="viewprdctDetails">
                   </a> <!-- viewprdctDetails -->
                   <span class="method-name">viewprdctDetails</span>
@@ -184,7 +208,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\LAB-USER-01\AppData\Local\Temp\testng-eclipse--453935832\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\LAB-USER-01\AppData\Local\Temp\testng-eclipse--1217327509\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -233,32 +257,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginTest')
 data.setCell(0, 2, 'testcases.BuyerTest')
-data.setCell(0, 3, 5430);
+data.setCell(0, 3, 4018);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Val_nameandprodTest')
 data.setCell(1, 2, 'testcases.BuyerTest')
-data.setCell(1, 3, 2500);
+data.setCell(1, 3, 2524);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Logininvalid')
 data.setCell(2, 2, 'testcases.BuyerTest')
-data.setCell(2, 3, 863);
+data.setCell(2, 3, 2119);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'viewprdctDetails')
 data.setCell(3, 2, 'testcases.BuyerTest')
-data.setCell(3, 3, 181);
+data.setCell(3, 3, 184);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'ProductListTest')
+data.setCell(4, 1, 'logoutTest')
 data.setCell(4, 2, 'testcases.BuyerTest')
-data.setCell(4, 3, 50);
+data.setCell(4, 3, 53);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addCartTest')
+data.setCell(5, 2, 'testcases.BuyerTest')
+data.setCell(5, 3, 49);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ProductListTest')
+data.setCell(6, 2, 'testcases.BuyerTest')
+data.setCell(6, 3, 31);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -291,31 +323,39 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">objInit</span>
-                <span class="method-start">1433 ms</span>
+                <span class="method-start">2442 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Logininvalid</span>
-                <span class="method-start">1448 ms</span>
+                <span class="method-start">2456 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">2317 ms</span>
+                <span class="method-start">4579 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ProductListTest</span>
-                <span class="method-start">7747 ms</span>
+                <span class="method-start">8597 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">viewprdctDetails</span>
-                <span class="method-start">7797 ms</span>
+                <span class="method-start">8628 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Val_nameandprodTest</span>
-                <span class="method-start">7981 ms</span>
+                <span class="method-start">8813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCartTest</span>
+                <span class="method-start">11337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">11393 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10481 ms</span>
+                <span class="method-start">11447 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

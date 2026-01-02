@@ -1,41 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-02T16:30:34 IST" name="Default suite" finished-at="2026-01-02T16:30:45 IST" duration-ms="10606">
+  <suite started-at="2026-01-02T18:12:24 IST" name="Default suite" finished-at="2026-01-02T18:12:36 IST" duration-ms="11588">
     <groups>
     </groups>
-    <test started-at="2026-01-02T16:30:34 IST" name="Default test" finished-at="2026-01-02T16:30:45 IST" duration-ms="10606">
+    <test started-at="2026-01-02T18:12:24 IST" name="Default test" finished-at="2026-01-02T18:12:36 IST" duration-ms="11588">
       <class name="testcases.BuyerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:34 IST" name="setUp" finished-at="2026-01-02T16:30:35 IST" duration-ms="1432" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:24 IST" name="setUp" finished-at="2026-01-02T18:12:27 IST" duration-ms="2441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="objInit()[pri:0, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:35 IST" name="objInit" finished-at="2026-01-02T16:30:35 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="objInit()[pri:0, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:27 IST" name="objInit" finished-at="2026-01-02T18:12:27 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objInit -->
-        <test-method signature="Logininvalid()[pri:1, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:35 IST" name="Logininvalid" finished-at="2026-01-02T16:30:36 IST" duration-ms="863" status="PASS">
+        <test-method signature="Logininvalid()[pri:1, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:27 IST" name="Logininvalid" finished-at="2026-01-02T18:12:29 IST" duration-ms="2119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logininvalid -->
-        <test-method signature="LoginTest()[pri:2, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:36 IST" name="LoginTest" finished-at="2026-01-02T16:30:42 IST" duration-ms="5430" status="PASS">
+        <test-method signature="LoginTest()[pri:2, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:29 IST" name="LoginTest" finished-at="2026-01-02T18:12:33 IST" duration-ms="4018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method signature="ProductListTest()[pri:3, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:42 IST" name="ProductListTest" finished-at="2026-01-02T16:30:42 IST" duration-ms="50" status="PASS">
+        <test-method signature="ProductListTest()[pri:3, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:33 IST" name="ProductListTest" finished-at="2026-01-02T18:12:33 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductListTest -->
-        <test-method signature="viewprdctDetails()[pri:4, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:42 IST" name="viewprdctDetails" finished-at="2026-01-02T16:30:42 IST" duration-ms="181" status="PASS">
+        <test-method signature="viewprdctDetails()[pri:4, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:33 IST" name="viewprdctDetails" finished-at="2026-01-02T18:12:33 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewprdctDetails -->
-        <test-method signature="Val_nameandprodTest()[pri:5, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:42 IST" name="Val_nameandprodTest" finished-at="2026-01-02T16:30:44 IST" duration-ms="2500" status="PASS">
+        <test-method signature="Val_nameandprodTest()[pri:5, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:33 IST" name="Val_nameandprodTest" finished-at="2026-01-02T18:12:35 IST" duration-ms="2524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Val_nameandprodTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BuyerTest@4b2bac3f]" started-at="2026-01-02T16:30:44 IST" name="tearDown" finished-at="2026-01-02T16:30:45 IST" duration-ms="111" status="PASS">
+        <test-method signature="addCartTest()[pri:6, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:35 IST" name="addCartTest" finished-at="2026-01-02T18:12:35 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCartTest -->
+        <test-method signature="logoutTest()[pri:7, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:35 IST" name="logoutTest" finished-at="2026-01-02T18:12:36 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BuyerTest@bcec361]" started-at="2026-01-02T18:12:36 IST" name="tearDown" finished-at="2026-01-02T18:12:36 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

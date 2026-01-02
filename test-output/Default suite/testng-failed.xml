@@ -5,8 +5,7 @@
     <classes>
       <class name="testcases.BuyerTest">
         <methods>
-          <include name="HonePageTest"/>
-          <include name="LoginTest"/>
+          <include name="Val_nameandprodTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="objInit"/>

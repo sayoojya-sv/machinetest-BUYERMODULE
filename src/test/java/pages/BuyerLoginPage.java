@@ -15,7 +15,7 @@ public class BuyerLoginPage {
 	
 	public BuyerLoginPage(WebDriver driver) {
 		this.driver=driver;
-		wait = new WebDriverWait(driver,Duration.ofSeconds(40));
+		wait = new WebDriverWait(driver,Duration.ofSeconds(60));
 	}
 	
 	//to click login
@@ -24,13 +24,14 @@ public class BuyerLoginPage {
 		log_clk.click();
 	}
 	
-	//to send credentials
+	//to send email
 	public void loginEmail(String e_mail) {
 		WebElement emaiL=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@placeholder='Email address']")));
 		emaiL.clear();
 		emaiL.sendKeys(e_mail);
 	}
 	
+	//to send password
 	public void loginPass(String pass) {
 		WebElement passw=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@placeholder='Password']")));
 		passw.clear();
@@ -44,10 +45,20 @@ public class BuyerLoginPage {
 		//driver.switchTo().alert().accept();
 	}
 	
+	//to validate homepage is displayed
 	public boolean isHomePageDisplayed() {
 		WebElement hme=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Account']")));
 		return hme.isDisplayed();
 		
 	}
+	
+	//to validate error message displayed when login with invalid credentials
+	public boolean iserrorMsgDisplayed() {
+		WebElement err=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Invalid credentials']")));
+		return err.isDisplayed();
+		
+	}
+	
+	
 
 }
