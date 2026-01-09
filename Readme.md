@@ -1,27 +1,42 @@
 Buyer-Module
 
-Introduction
+The Buyer Module is a web application that allows users to buy and sell products while browsing items across different categories. This module focuses on validating buyer-related functionalities to ensure a smooth and reliable user experience.
 
-This is a web-application for buying and selling products and can see different category list.
+Tools & Technologies Used
 
-Tools used:  
-Selenium, Maven ,TestNg
+Selenium WebDriver – UI automation testing
+Maven – Build and dependency management
+TestNG – Test execution and reporting
+Java – Programming language
 
-Framework:
+Framework Structure
 
-src/test/java  
-|\_\_base  
-|    |\_TestBase  
-|  
-|\_pages  
-|   |\_BuyerLoginPage  
-|   |\_HomePage  
-|   |\_LogoutPage  
-|   |\_CartPage  
-|  
-|\_testcases  
-   |\_BuyerTest
+src/test/java
+├── base
+│   └── TestBase
+├── pages
+│   ├── BuyerLoginPage
+│   ├── HomePage
+│   ├── CartPage
+│   └── LogoutPage
+│
+└── testcases
+    └── BuyerTest
 
-Resources
+Setup Instructions
 
-Git clone 
+Prerequisites:
+
+1. Java JDK 8 or higher installed on the system
+2. Maven installed and properly configured
+3. A supported web browser such as Chrome or Firefox
+4. Corresponding WebDriver configured and added to the system path
+
+Installation & Execution
+
+1. Clone the project repository to your local machine
+2. Navigate to the project directory
+3. Install all required Maven dependencies
+4. Configure browser and WebDriver settings if needed
+5. Run the TestNG test cases using Maven
+6. View test execution reports in the target folder
