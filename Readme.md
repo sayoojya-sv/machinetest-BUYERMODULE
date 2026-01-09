@@ -12,6 +12,7 @@ Java – Programming language
 Framework Structure
 
 src/test/java
+|
 ├── base
 │   └── TestBase
 ├── pages
