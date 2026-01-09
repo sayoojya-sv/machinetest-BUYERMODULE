@@ -40,3 +40,4 @@ Installation & Execution
 4. Configure browser and WebDriver settings if needed
 5. Run the TestNG test cases using Maven
 6. View test execution reports in the target folder
+
